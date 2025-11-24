@@ -1,0 +1,78 @@
+body {
+  background-color: #1a1a1a;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.teaser-card {
+  display: flex;
+  background: linear-gradient(90deg, #310c49 0%, #1a008d 100%);
+  max-width: 600px;
+  width: 100%;
+  border-radius: 6px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+
+  font-family: "Bodoni Moda", Georgia, serif;
+}
+
+
+.image-wrapper {
+  width: 40%;
+  background-color: #c2c2c2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.content{
+  width: 60%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+}
+
+
+  .title {
+    font-size: 1.6rem;
+    color: #ffffff;
+    margin: 0 0 15px 0;
+    font-weight: 700;
+    font-family: "Almendra SC", serif;
+    text-shadow:
+      1px 1px 2px black,
+      0 0 1em rgba(33, 10, 115, 0.487),
+      0 0 0.2em rgba(10, 41, 113, 0.54);
+    color: rgb(218, 188, 246);
+  }
+
+  .tagline {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin: 0 0 25px 0;
+    font-style: italic;
+  }
+
+  .author {
+    font-size: 1.1rem;
+    color: #ffffff;
+    margin: 0;
+    font-family: "Bodoni Moda", Georgia, serif;
+  }
